@@ -114,8 +114,17 @@ Used to specify the language of the page, which can affect date format, screen r
   <svg width="100" height="100">
       <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
   </svg>
-Canvas
+### 2. **Canvas** 
 Used for dynamic and interactive graphics, such as games and animations.
+```html
+Canvas: HTML Canvas is a powerful tool for creating dynamic and interactive graphics on the web. Its flexibility and performance make it a popular choice for games, animations, and data visualizations.
+        eg.  <canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
+        getContext(): Retrieves the drawing context for the canvas, such as 2d or webgl.
+        fillRect(x, y, width, height): Draws a filled rectangle.
+        strokeRect(x, y, width, height): Draws a rectangle outline.
+        arc(x, y, radius, startAngle, endAngle, anticlockwise): Draws a circle or arc.
+        drawImage(): Draws an image onto the canvas.
+```
 Example
 <canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
 
