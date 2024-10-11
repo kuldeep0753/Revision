@@ -43,12 +43,12 @@ A:      ### 1. **`<head>`:**
         For accessibility and SEO, prefer <strong> over <b>.
 
 6. Different form of colour:
-        -Hex: #FF5733 (orange)
-        -RGB: rgb(255, 0, 0) (red)
-        -RGBA: rgba(255, 0, 0, 0.5) (semi-transparent red)
-        -HSL: hsl(240, 100%, 50%) (blue)
-        -HSLA: hsla(240, 100%, 50%, 0.5) (semi-transparent blue)
-        -Color Name: coral
+        - Hex: #FF5733 (orange)
+        - RGB: rgb(255, 0, 0) (red)
+        - RGBA: rgba(255, 0, 0, 0.5) (semi-transparent red)
+        - HSL: hsl(240, 100%, 50%) (blue)
+        - HSLA: hsla(240, 100%, 50%, 0.5) (semi-transparent blue)
+        - Color Name: coral
 
 7. Link:
     -General--> <a href="url">link text</a>
@@ -58,10 +58,10 @@ A:      ### 1. **`<head>`:**
     The "target" attribute specifies where to open the linked document.
     The "target" attribute can have one of the following values:
 
-    . _self - Default. Opens the document in the same window/tab as it was clicked
-    . _blank - Opens the document in a new window or tab
-    . _parent - Opens the document in the parent frame
-    . _top - Opens the document in the full body of the window
+    - _self - Default. Opens the document in the same window/tab as it was clicked
+    - _blank - Opens the document in a new window or tab
+    - _parent - Opens the document in the parent frame
+    - _top - Opens the document in the full body of the window
             
 8.<link> tag
         - used to link external resources
@@ -69,14 +69,14 @@ A:      ### 1. **`<head>`:**
         - href: Specifies the URL of the linked resource (in this case, the CSS file)
 
 9. Lists:
-    -ordered list(ol)
-    -unordered list(ul)
-    -defination list(dl,dt,dd)
+    - ordered list(ol)
+    - unordered list(ul)
+    - defination list(dl,dt,dd)
 
 10. block and inline element
-     -Block elements take up the full width available (stretches to the left and right) and start on a new line.
+     - Block elements take up the full width available (stretches to the left and right) and start on a new line.
       eg. div,p,h1..h6,
-    -inline elements take up only as much width as necessary 
+    - inline elements take up only as much width as necessary 
      eg. a,img,span, em,i,strong
 
 11. <div> vs <span>
