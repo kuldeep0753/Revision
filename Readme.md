@@ -20,8 +20,8 @@ A:      ### 1. **`<head>`:**
             - Represents the visible structure of the web page.
 
 3. Elements and tags
-    element: <tag>content</tag>
-    tag: no need content
+    -element: <tag>content</tag>
+    -tag: no need content
 
 4. Attributes: provide additional information like src,id,class,href,alt,height,width,type...
     Rules:
@@ -43,25 +43,25 @@ A:      ### 1. **`<head>`:**
         For accessibility and SEO, prefer <strong> over <b>.
 
 6. Different form of colour:
-        Hex: #FF5733 (orange)
-        RGB: rgb(255, 0, 0) (red)
-        RGBA: rgba(255, 0, 0, 0.5) (semi-transparent red)
-        HSL: hsl(240, 100%, 50%) (blue)
-        HSLA: hsla(240, 100%, 50%, 0.5) (semi-transparent blue)
-        Color Name: coral
+        -Hex: #FF5733 (orange)
+        -RGB: rgb(255, 0, 0) (red)
+        -RGBA: rgba(255, 0, 0, 0.5) (semi-transparent red)
+        -HSL: hsl(240, 100%, 50%) (blue)
+        -HSLA: hsla(240, 100%, 50%, 0.5) (semi-transparent blue)
+        -Color Name: coral
 
 7. Link:
-    General--> <a href="url">link text</a>
-    Email--> <a href="mailto:someone@example.com">Send email</a>
-    Button--> <button onclick="document.location='https://eloquentjavascript.net/00_intro.html'" target="">HTML Tutorial</button>
+    -General--> <a href="url">link text</a>
+    -Email--> <a href="mailto:someone@example.com">Send email</a>
+    -Button--> <button onclick="document.location='https://eloquentjavascript.net/00_intro.html'" target="">HTML Tutorial</button>
 
     The "target" attribute specifies where to open the linked document.
     The "target" attribute can have one of the following values:
 
-    _self - Default. Opens the document in the same window/tab as it was clicked
-    _blank - Opens the document in a new window or tab
-    _parent - Opens the document in the parent frame
-    _top - Opens the document in the full body of the window
+    . _self - Default. Opens the document in the same window/tab as it was clicked
+    . _blank - Opens the document in a new window or tab
+    . _parent - Opens the document in the parent frame
+    . _top - Opens the document in the full body of the window
             
 8.<link> tag
         - used to link external resources
@@ -87,7 +87,7 @@ A:      ### 1. **`<head>`:**
     <title>,<meta>,<link>,<style>,<script>
 
 14. HTML Layout:
-    header, navigation, main content, sidebar, and footer.
+     - header, navigation, main content, sidebar, and footer.
 
 15. semantic and non-semantic
         - Semantic: elements which have meaning and Better for search engine optimization eg. nav,header, footer, article, img
