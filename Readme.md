@@ -1,23 +1,23 @@
 1.Html and HTML5
-A: -the standard markup language used for creating the structure of web pages. It consists of a series of elements (tags) that tell the browser how to display the content, such as text, images, links, tables, and other multimedia components.eg: video,audio,footer,header,nav bar,<article>, <nav>, <aside>, and <figure>
+A: -the standard markup language used for creating the structure of web pages. It consists of a series of elements      (tags) that tell the browser how to display the content, such as text, images, links, tables, and other multimedia components.eg: video,audio,footer,header,nav bar,<article>, <nav>, <aside>, and <figure>
 
     HTML5 is a advanced version of HTML4, new features added like nav, header, footer
 
 2. explain head, title, body?
-A: ### 1. **`<head>`:**
-   - Contains meta-information about the document (e.g., character set, page description).
-   - Includes elements like `<title>`, `<meta>`, `<link>`, and `<style>`.
-   - It is not visible in the browser's main content area but affects the page's behavior and SEO.
+A:      ### 1. **`<head>`:**
+            - Contains meta-information about the document (e.g., character set, page description).
+            - Includes elements like `<title>`, `<meta>`, `<link>`, and `<style>`.
+            - It is not visible in the browser's main content area but affects the page's behavior and SEO.
 
-### 2. **`<title>`:**
-   - Sets the title of the web page, displayed in the browser tab.
-   - Appears in search engine results as the clickable link.
-   - Placed inside the `<head>` section.
+        ### 2. **`<title>`:**
+            - Sets the title of the web page, displayed in the browser tab.
+            - Appears in search engine results as the clickable link.
+            - Placed inside the `<head>` section.
 
-### 3. **`<body>`:**
-   - Contains the main content of the web page, including text, images, videos, and other elements.
-   - Everything inside the `<body>` tag is rendered on the browser window for users to see.
-   - Represents the visible structure of the web page.
+        ### 3. **`<body>`:**
+            - Contains the main content of the web page, including text, images, videos, and other elements.
+            - Everything inside the `<body>` tag is rendered on the browser window for users to see.
+            - Represents the visible structure of the web page.
 
 3. Elements and tags
     element: <tag>content</tag>
@@ -64,9 +64,9 @@ A: ### 1. **`<head>`:**
     _top - Opens the document in the full body of the window
             
 8.<link> tag
-    - used to link external resources
-    - rel: Specifies the relationship between the current document and the linked resource. For stylesheets, it should be stylesheet.
-    - href: Specifies the URL of the linked resource (in this case, the CSS file)
+        - used to link external resources
+        - rel: Specifies the relationship between the current document and the linked resource. For stylesheets, it should be stylesheet.
+        - href: Specifies the URL of the linked resource (in this case, the CSS file)
 
 9. Lists:
     -ordered list(ol)
@@ -90,8 +90,8 @@ A: ### 1. **`<head>`:**
     header, navigation, main content, sidebar, and footer.
 
 15. semantic and non-semantic
-    - Semantic: elements which have meaning and Better for search engine optimization eg. nav,header, footer, article, img
-    - Non-Semantic: don't have meaning. eg. span,div,b,i
+        - Semantic: elements which have meaning and Better for search engine optimization eg. nav,header, footer, article, img
+        - Non-Semantic: don't have meaning. eg. span,div,b,i
 
 16. HTML Entity:displaying reserved characters, special symbols, and characters from different languages
     eg. &amp;,&copy; , &lt;, 
