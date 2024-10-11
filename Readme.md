@@ -1,141 +1,127 @@
-1.Html and HTML5
-A: -the standard markup language used for creating the structure of web pages. It consists of a series of elements      (tags) that tell the browser how to display the content, such as text, images, links, tables, and other multimedia components.eg: video,audio,footer,header,nav bar,<article>, <nav>, <aside>, and <figure>
+# HTML and HTML5 Concepts
 
-    HTML5 is a advanced version of HTML4, new features added like nav, header, footer
+## 1. HTML and HTML5
+HTML is the standard markup language used for creating the structure of web pages. It consists of elements (tags) that tell the browser how to display content such as text, images, links, and multimedia components (e.g., video, audio, footer, header, navbar, `<article>`, `<nav>`, `<aside>`, and `<figure>`).
 
-2. explain head, title, body?
-A:      ### 1. **`<head>`:**
-            - Contains meta-information about the document (e.g., character set, page description).
-            - Includes elements like `<title>`, `<meta>`, `<link>`, and `<style>`.
-            - It is not visible in the browser's main content area but affects the page's behavior and SEO.
+HTML5 is an advanced version of HTML4, with new features like `<nav>`, `<header>`, and `<footer>`.
 
-        ### 2. **`<title>`:**
-            - Sets the title of the web page, displayed in the browser tab.
-            - Appears in search engine results as the clickable link.
-            - Placed inside the `<head>` section.
+## 2. Head, Title, Body Tags
+### 1. **`<head>`**:
+   - Contains meta-information about the document (e.g., character set, page description).
+   - Includes elements like `<title>`, `<meta>`, `<link>`, and `<style>`.
+   - Affects page behavior and SEO but is not visible in the main content.
 
-        ### 3. **`<body>`:**
-            - Contains the main content of the web page, including text, images, videos, and other elements.
-            - Everything inside the `<body>` tag is rendered on the browser window for users to see.
-            - Represents the visible structure of the web page.
+### 2. **`<title>`**:
+   - Sets the title displayed in the browser tab and appears in search results.
+   - Placed inside the `<head>` section.
 
-3. Elements and tags
-    -element: <tag>content</tag>
-    -tag: no need content
+### 3. **`<body>`**:
+   - Contains the main content of the web page (text, images, videos, etc.).
+   - Everything inside the `<body>` is rendered for users to see.
 
-4. Attributes: provide additional information like src,id,class,href,alt,height,width,type...
-    Rules:
-    -Attribute values are enclosed in quotes.
-    -Multiple attributes can be added to a single element, separated by spaces.
+## 3. Elements and Tags
+- **Element**: `<tag>content</tag>`
+- **Tag**: May or may not require content.
 
-5. <b> vs <strong>
-        <b> (Bold): and <i>(italic)
-        - Used to display text in bold style.
-        - Does not convey any semantic meaning (purely presentational).
-        - Example: <p>This is <b>bold</b> text.</p>
-        
-        <strong> (Strong Importance): <em>
-        -Indicates that the text has strong emphasis or importance.
-        -Conveys semantic meaning, making it more meaningful for screen readers and search engines.
-        -Usually displayed in bold style, but its primary function is to highlight importance.
-        -Example: <p>This is <strong>strongly emphasized</strong> text.</p>
-        Key Difference:
-        For accessibility and SEO, prefer <strong> over <b>.
+## 4. Attributes
+Attributes provide additional information like `src`, `id`, `class`, `href`, `alt`, `height`, `width`, `type`, etc.
+- Attribute values are enclosed in quotes.
+- Multiple attributes can be added to an element, separated by spaces.
 
-6. Different form of colour:
-        - Hex: #FF5733 (orange)
-        - RGB: rgb(255, 0, 0) (red)
-        - RGBA: rgba(255, 0, 0, 0.5) (semi-transparent red)
-        - HSL: hsl(240, 100%, 50%) (blue)
-        - HSLA: hsla(240, 100%, 50%, 0.5) (semi-transparent blue)
-        - Color Name: coral
+## 5. `<b>` vs `<strong>`
+- **`<b>`** (Bold): Used to display text in bold style. No semantic meaning (purely presentational).
+- **`<strong>`** (Strong Importance): Indicates strong emphasis or importance and conveys semantic meaning. For accessibility and SEO, prefer `<strong>` over `<b>`.
 
-7. Link:
-    -General--> <a href="url">link text</a>
-    -Email--> <a href="mailto:someone@example.com">Send email</a>
-    -Button--> <button onclick="document.location='https://eloquentjavascript.net/00_intro.html'" target="">HTML Tutorial</button>
+## 6. Different Forms of Color
+- **Hex**: `#FF5733` (orange)
+- **RGB**: `rgb(255, 0, 0)` (red)
+- **RGBA**: `rgba(255, 0, 0, 0.5)` (semi-transparent red)
+- **HSL**: `hsl(240, 100%, 50%)` (blue)
+- **HSLA**: `hsla(240, 100%, 50%, 0.5)` (semi-transparent blue)
+- **Color Name**: `coral`
 
-    The "target" attribute specifies where to open the linked document.
-    The "target" attribute can have one of the following values:
+## 7. Links
+- **General**: `<a href="url">link text</a>`
+- **Email**: `<a href="mailto:someone@example.com">Send email</a>`
+- **Button**: `<button onclick="document.location='url'">HTML Tutorial</button>`
 
-    - _self - Default. Opens the document in the same window/tab as it was clicked
-    - _blank - Opens the document in a new window or tab
-    - _parent - Opens the document in the parent frame
-    - _top - Opens the document in the full body of the window
-            
-8.<link> tag
-        - used to link external resources
-        - rel: Specifies the relationship between the current document and the linked resource. For stylesheets, it should be stylesheet.
-        - href: Specifies the URL of the linked resource (in this case, the CSS file)
+Target attribute options:
+- `_self`: Default, opens the link in the same window.
+- `_blank`: Opens the link in a new tab/window.
+- `_parent`: Opens the link in the parent frame.
+- `_top`: Opens the link in the full window.
 
-9. Lists:
-    - ordered list(ol)
-    - unordered list(ul)
-    - defination list(dl,dt,dd)
+## 8. `<link>` Tag
+- Used to link external resources.
+- **`rel`**: Specifies the relationship (e.g., `stylesheet`).
+- **`href`**: Specifies the URL of the linked resource.
 
-10. block and inline element
-     - Block elements take up the full width available (stretches to the left and right) and start on a new line.
-      eg. div,p,h1..h6,
-    - inline elements take up only as much width as necessary 
-     eg. a,img,span, em,i,strong
+## 9. Lists
+- **Ordered List**: `<ol>`
+- **Unordered List**: `<ul>`
+- **Definition List**: `<dl>`, `<dt>`, `<dd>`
 
-11. <div> vs <span>
+## 10. Block vs Inline Elements
+- **Block Elements**: Take up full width and start on a new line (e.g., `<div>`, `<p>`, `<h1>` to `<h6>`).
+- **Inline Elements**: Take up only necessary width (e.g., `<a>`, `<img>`, `<span>`, `<em>`, `<i>`, `<strong>`).
 
-12. class and id: id is unique, but class name would be same.
+## 11. `<div>` vs `<span>`
+- **`<div>`**: Block-level element used for layout and structure.
+- **`<span>`**: Inline element used for styling parts of content.
 
-13. Tags used in head.
-    <title>,<meta>,<link>,<style>,<script>
+## 12. Class vs ID
+- **ID**: Unique to a page.
+- **Class**: Can be used multiple times across elements.
 
-14. HTML Layout:
-     - header, navigation, main content, sidebar, and footer.
+## 13. Tags in `<head>`
+- `<title>`, `<meta>`, `<link>`, `<style>`, `<script>`
 
-15. semantic and non-semantic
-        - Semantic: elements which have meaning and Better for search engine optimization eg. nav,header, footer, article, img
-        - Non-Semantic: don't have meaning. eg. span,div,b,i
+## 14. HTML Layout
+- **Header**, **Navigation**, **Main Content**, **Sidebar**, and **Footer**.
 
-16. HTML Entity:displaying reserved characters, special symbols, and characters from different languages
-    eg. &amp;,&copy; , &lt;, 
+## 15. Semantic vs Non-Semantic Elements
+- **Semantic**: Meaningful elements (e.g., `<nav>`, `<header>`, `<footer>`, `<article>`).
+- **Non-Semantic**: Elements that don't carry meaning (e.g., `<div>`, `<span>`, `<b>`, `<i>`).
 
-17. Void /self closing tags: <br>,<hr>,<img/>,<link>,<input>,<area>
+## 16. HTML Entities
+Display reserved characters, symbols, and characters from other languages (e.g., `&amp;`, `&copy;`, `&lt;`).
 
-18. CSS apply : 3 ways-->inline (like attribute eg. style=""),internal(<style> tag),external(<link rel="" href="">)
+## 17. Void/Self-Closing Tags
+- Tags that don’t require closing (e.g., `<br>`, `<hr>`, `<img>`, `<link>`, `<input>`).
 
-19. JS inject: 3 ways--> inline, internal(script tag), external(src),in body.
+## 18. Applying CSS
+- **Inline**: Using the `style` attribute.
+- **Internal**: Inside `<style>` tag.
+- **External**: Using `<link>` to an external CSS file.
 
-20. lang attribute: use for language purpose, date format, screen reader,right to left,font size vary according to lang, alert prompt based on lang.
+## 19. Injecting JavaScript
+- **Inline**, **Internal** (within `<script>`), and **External** (via `src` attribute).
 
-21. Validation tool: W3C Validator
+## 20. `lang` Attribute
+Used to specify the language of the page, which can affect date format, screen reader behavior, and right-to-left language support.
 
-22. Importance of UTF-8(Unicode Transformation Format - 8-bit) in HTML
-        Global Language Support: UTF-8 can represent characters from virtually every language and script, enabling seamless multilingual content.
+## 21. Validation Tool
+- **W3C Validator**: Used for checking the validity of HTML code.
 
-        Compatibility: It is widely supported by modern browsers and programming languages, ensuring consistent text rendering across platforms.
+## 22. Importance of UTF-8
+- UTF-8 supports all characters from various languages, ensures compatibility, improves SEO, and enhances accessibility. Declared in `<meta charset="UTF-8">`.
 
-        SEO Benefits: Using UTF-8 helps search engines properly index all characters, enhancing visibility in search results.
+## 23. Graphics
+### 1. **SVG** (Scalable Vector Graphics)
+- Scalable, interactive, and high-quality rendering.
+- Example:
+  ```html
+  <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  </svg>
+Canvas
+Used for dynamic and interactive graphics, such as games and animations.
+Example
+<canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
 
-        Accessibility: It improves text interpretation for screen readers and assistive technologies, making content more accessible.
+24. Importing CSS Files
+`@import url("header.css");`
 
-        HTML Declaration: Specifying UTF-8 in the <meta charset="UTF-8"> tag prevents character corruption and ensures correct display.
+## 25. Void/Self-Closing Tags
+Examples include `<br>`, `<img />`, and `<input />`.
 
-        Ease of Use: UTF-8 eliminates the need for multiple encodings, simplifying development and maintenance.
-
-23. Graphics:
-    1. SVG:SVG graphics are scalable, and do not lose any quality if they are zoomed or resized:
-        Reason for use: SVG is a powerful tool for creating graphics on the web, offering scalability, small file sizes, interactivity, and high-quality rendering. Its versatility and ease of use make it a popular choice for modern web design and development.
-     eg. <svg width="100" height="100">
-             <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
-             <rect x="10" y="10" width="200" height="100" stroke="red" stroke-width="6" fill="blue" />
-        </svg>
-
-    2. Canvas: HTML Canvas is a powerful tool for creating dynamic and interactive graphics on the web. Its flexibility and performance make it a popular choice for games, animations, and data visualizations.
-        eg.  <canvas id="myCanvas" width="400" height="200" style="border:1px solid #000000;"></canvas>
-        getContext(): Retrieves the drawing context for the canvas, such as 2d or webgl.
-        fillRect(x, y, width, height): Draws a filled rectangle.
-        strokeRect(x, y, width, height): Draws a rectangle outline.
-        arc(x, y, radius, startAngle, endAngle, anticlockwise): Draws a circle or arc.
-        drawImage(): Draws an image onto the canvas.
-
-24. using a existing css file into another file using @import
-    eg. @import url("header.css");
-
-25. 
